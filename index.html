@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>SNAKE!</title>
+	<title>SNAKE GAME!</title>
+	<link rel="icon" href="https://techviral.net/wp-content/uploads/2017/02/Now-You-Can-Play-The-Nokia-3310s-Iconic-Snake-Game-On-Facebook-Messenger.png" type="favcon"/>
 </head>
 <body>
+	<h1> Welcome to Snake Game</h1>
 	<canvas id="stage" width="600" height="600"></canvas>
-
+	<link rel="stylesheet" type="text/css" href="styles.css" />
 	<script type="text/javascript">
 		// TODO: Melhorar layout do jogo
 		// TODO: Incorporar score | botão de pausar
@@ -18,7 +20,7 @@
 			document.addEventListener("keydown", keyPush);
 			setInterval(game, 60);
 			// velocidade
-			const vel = 1;
+			const vel = 0.9;
 			// trajeto da cobrinha;
 			var trail = [];
 			// tamanho da cobra
