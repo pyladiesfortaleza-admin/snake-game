@@ -1,0 +1,19 @@
+@import url('http://fonts.cdnfonts.com/css/pixe-l7');
+
+body {
+    background-image: linear-gradient(to right, #233329, #63D471)
+}
+h1 {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Thin Pixe-l7', sans-serif;
+
+}
+
+canvas {
+    display: inline-block;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
